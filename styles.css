@@ -273,18 +273,22 @@ body {
 .arm {
     width: 30%;
     height: 60%;
+    border-radius: 30% 30% 30% 120%;
     background: linear-gradient(90deg, var(--penguin-skin),rgb(209, 210, 199));
+    z-index: -1;
 }
 
 .arm.left {
     position: absolute;
     top: 35%;
     left: 5%;
-
+    transform-origin: top left;
+    transform: rotate(130deg) scaleX(-1);
 }
 
 .arm.right {
     position: absolute;
     top: 0%;
     right: -5%;
+    transform: rotate(-45deg);
 }
