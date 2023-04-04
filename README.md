@@ -1,2 +1,2 @@
-# CSS_Penguin_Project
+# PenguinProject
 
