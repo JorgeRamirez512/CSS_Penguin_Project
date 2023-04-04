@@ -276,3 +276,15 @@ body {
     background: linear-gradient(90deg, var(--penguin-skin),rgb(209, 210, 199));
 }
 
+.arm.left {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+
+}
+
+.arm.right {
+    position: absolute;
+    top: 0%;
+    right: -5%;
+}
